@@ -1,0 +1,64 @@
+.navbar {
+    background: #F97300;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.bg-dark {
+    background-color: #343a40 !important
+}
+
+.bg-primary {
+    background-color: #007bff !important
+}
+
+/*header style*/
+.header {
+    background-image: url('https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwia_MLp0ILnAhXXAnIKHUgmAbsQjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D2ahUKEwiGvKHn0ILnAhVbeysKHWpoBG0QjRx6BAgBEAQ%26url%3Dhttp%253A%252F%252Fwww.datasynergo.com%252Fabout-us%252Fattachment%252Fheader-about%252F%26psig%3DAOvVaw3YwuK8OMgq7g6y2YIJ0DM2%26ust%3D1579075505642897&psig=AOvVaw3YwuK8OMgq7g6y2YIJ0DM2&ust=1579075505642897');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../images/header-about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
